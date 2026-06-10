@@ -133,14 +133,14 @@ p {
 h1 {
   margin-bottom: 0;
   color: var(--ink);
-  font-size: clamp(1.25rem, 2.3vw, 2.25rem);
+  font-size: clamp(4.35rem, 8vw, 6.8rem);
   line-height: 1.12;
   letter-spacing: 0;
 }
 
 h1 span {
   color: var(--muted);
-  font-size: 0.72em;
+  font-size: 1em;
   font-weight: 760;
   white-space: nowrap;
 }
@@ -152,7 +152,7 @@ h1 span {
 .hero-name p {
   margin: 8px 0 0;
   color: var(--muted);
-  font-size: clamp(4.35rem, 8vw, 6.8rem);
+  font-size: clamp(1.25rem, 2.3vw, 2.25rem);
   font-weight: 700;
   line-height: 1.1;
 }
@@ -423,7 +423,7 @@ li + li {
   }
 
   h1 {
-    font-size: clamp(1.2rem, 6vw, 2rem);
+    font-size: clamp(2.6rem, 12vw, 4.2rem);
   }
 
   .hero-actions {
